@@ -1,14 +1,38 @@
->>CO2 offset tracker: a tool to calculate the yearly carbon dioxide absorbtion rate based on the tree species and plantation style.
+# CO2 Offset Tracker
 
->>application: 
-1.) to calculate the number of tree
-2.) for large scale afforestation measures.
+A web tool to calculate the annual carbon dioxide absorption 
+rate based on tree species and plantation style.
 
->>Programming language:
-1.)backend: python
-2.)frontend: HTML and CSS
+## Motivation
+Rapid urbanisation in regions like Dehradun is depleting green 
+cover at an alarming rate. This tool was built to make 
+afforestation planning accessible, data-driven, and actionable 
+— for individuals and communities alike.
 
->>Future roadmap:
-In future iterations, I plan to expand this tracker from a personal footprint calculator into an active environmental problem-solving tool:
-Localized AQI Integration: Connect to an external air quality API so users can select their city or input local pollution metrics.
-Target-Based Remediation Math:Using the CO2 level in a particular area, the app determines the exact number and species of trees required to neutralize a neighborhood's specific CO2 surplus. Thus, It will assist local communities to map out planting targets to actively pull their surrounding air quality down to safe, breathable baselines.
+## Features
+- Select from 4 native tree species: Neem, Ashoka, Mango, Kaner
+- Choose plantation style: boundary, forest, or row
+- Calculate annual CO2 absorption based on tree count or land area
+
+## Applications
+- Personal carbon offset planning
+- Large scale afforestation measures for communities and NGOs
+
+## Tech Stack
+- Frontend: HTML, CSS
+- Backend: Python (Flask) — in progress
+
+## Future Roadmap
+- **Localized AQI Integration:** Connect to an air quality API 
+  so users can input local pollution metrics
+- **Target-Based Remediation:** Using regional CO2 levels, 
+  calculate exact tree counts and species required to bring 
+  air quality to safe baselines
+- **Community Mapping:** Help local groups visualise and plan 
+  planting targets for their neighbourhoods
+
+## Project Demo
+[Link to live demo — coming soon]
+
+## GitHub
+github.com/yukta-h-joshi
